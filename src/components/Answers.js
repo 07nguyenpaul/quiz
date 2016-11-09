@@ -1,8 +1,16 @@
 import React from 'react';
 
-class Answers extends Component {
+const Answer = (props) => {
+  const { id, text } = props;
 
-  render() {
-    
-  }
-}
+  return(
+    <div>
+      <label>
+        <input type="radio" name={id} />
+        {text}
+      </label>
+    </div>
+  );
+};
+
+export default Answer;
