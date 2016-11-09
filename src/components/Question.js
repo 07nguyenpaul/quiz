@@ -1,7 +1,7 @@
 import React from 'react';
 import Answer from './Answers';
 
-const Questions = (props) => {
+const Question = (props) => {
   const {title, id, answers} = props;
 
   return(
@@ -18,4 +18,4 @@ const Questions = (props) => {
   );
 };
 
-export default Questions;
+export default Question;
