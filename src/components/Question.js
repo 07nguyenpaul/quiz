@@ -12,6 +12,8 @@ const Question = (props) => {
             key={index}
             id={id}
             text={answer.title}
+            score={answer.score}
+            setSelectedAnswer={props.setSelectedAnswer}
           />
         )}
     </div>
