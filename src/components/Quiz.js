@@ -41,25 +41,3 @@ class Quiz extends Component {
 }
 
 export default Quiz;
-
-//
-// <div>
-//   <h2>{this.state.title}</h2>
-//   {this.state.quizzes.questions ? this.state.quizzes.questions.map((question) => {
-//     return(
-//       <section key={question.id}>
-//         <p>{question.title}</p>
-//         <ul>
-//           { question.answers.map((answer, index) => {
-//             return(
-//               <li key={index}>
-//                 {answer.title}
-//               </li>
-//             )
-//           })}
-//         </ul>
-//       </section>
-//     )
-//   })
-//   : <h1>No questions</h1> }
-// </div>
