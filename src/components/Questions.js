@@ -11,7 +11,6 @@ const Questions = (props) => {
           <Answer
             key={index}
             id={id}
-            radioId={props.name}
             text={answer.title}
           />
         )}
